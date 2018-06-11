@@ -1,0 +1,9 @@
+#pic{
+  float: right;
+  right: 10px
+}
+
+#pic1{
+  left: 10px;
+  float: left;
+}

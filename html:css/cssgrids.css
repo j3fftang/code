@@ -1,0 +1,71 @@
+.wrapper{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  grid-auto-rows: minmax(200px,auto);
+  /*grid-row-gap:2em;
+  grid-column-gap:1em;*/
+  grid-gap: 1em;
+  grid-template-areas:
+    "bub1 bub1 bub1 bub1 bub1"
+    "bub2 bub2 bub3 bub3 bub4"
+    "bub6 bub6 bub3 bub3 bub4"
+    "bub8 bub8 bub7 bub5 bub5 "
+    "bub8 bub8 bub7 bub5 bub5";
+}
+.wrapper>div{
+  background:white;
+  padding:1em;
+  border-style:solid;
+  border-width:3px;
+}
+ .wrapper>div:nth-child(odd){
+  background:#ddd;
+}
+.bub1{
+  grid-area: bub1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bub2{
+  grid-area: bub2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bub3{
+  grid-area: bub3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bub4{
+  grid-area: bub4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bub5{
+  grid-area: bub5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bub6{
+  grid-area: bub6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bub7{
+  grid-area: bub7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bub8{
+  grid-area: bub8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

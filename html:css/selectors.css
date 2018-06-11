@@ -1,0 +1,43 @@
+h1{
+  color: red;
+}
+
+#main{
+  color: blue;
+}
+
+#cursive{
+  font-family: cursive;
+  font-size: 200%;
+  color: purple;
+}
+
+#fonttype{
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 150%;
+  color: yellow;
+}
+
+#potatoes{
+  font-size: 300%;
+  font-style: italic;
+  font-family: monospace;
+  color: green;
+}
+
+#Wednesday{
+  font-size: 500%;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: fantasy;
+  color: pink;
+}
+
+#cheese{
+  font-size: 550%;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: inherit;
+  color: red
+}
